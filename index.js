@@ -26,7 +26,7 @@ async function getData() {
       lutaElement.style.display = "none";
       perdeuElement.style.display = "inline";
       buttonElement.style.display = "none";
-      mensagemElement.innerText = json.value;
+      mensagemElement.innerText = "''" + json.value + "''";
 
 
     } catch (error) {
