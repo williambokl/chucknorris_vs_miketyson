@@ -2,11 +2,14 @@
     color: red;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .body p {
     color: brown;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .body h2{
@@ -14,10 +17,12 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 48px;
+    margin-top: -24px;
 }
 
 .body img {
-    width: 800px;
+    max-width: 800px;
+    max-height: 400px;
 }
 
 #perdeu {
@@ -25,7 +30,6 @@
 }
 
 .controle {
-    margin-left: 47%;
     margin-top: 48px;
 }
 

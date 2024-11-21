@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <title>Chuck Norris vs Mike Tyson</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
 </head>
 <body>
     
     <div class="body">
         <h1>Chuck Norris vs Mike Tyson</h1>
-        <p>Acerte o Mike Tyson antes que ele tente um soco e receba uma mensagem de guerra</p>
+        <p id="vencedor">Show that Chuck Norris never misses! Defeat Mike Tyson now! </p>
+        <div class="controle">
+            <button class="acao" id="botao">Shoot like Chuck!</button>
+        </div>
         <h2 id="mensagem"></h2>
         <img id="perdeu" src="./img/perdeu.png">
         <img id="luta" src="./img/luta.png">
         
     </div>
-    <div class="controle">
-        <button class="acao" id="botao">Atirar</button>
-    </div>
+    
 
     <script src="index.js"></script>
 </body>
